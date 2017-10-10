@@ -19,7 +19,7 @@ import  {
 
 
 const IndexPage = () => (
-  
+  <div>
   <Grid columns={3} relaxed>
     <Grid.Column>
       <Segment basic>
@@ -37,7 +37,7 @@ const IndexPage = () => (
       </Segment>
     </Grid.Column>
   </Grid>
- 
+ </div>
 )
 
 export default IndexPage

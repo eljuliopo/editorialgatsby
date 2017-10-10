@@ -23,8 +23,8 @@ class CustomMenu extends Component {
       <div>
         <Menu
           inverted
-          size="large"
-          compact
+          size="mini"
+          //compact
           fixed="top"
           style={{
             backgroundColor: "rgba(99,33,33)",
@@ -73,7 +73,7 @@ class CustomMenu extends Component {
           <Menu.Menu className="mobile only" position='right'>
             <Menu.Item>
               <Icon
-                size="small"
+                size="medium"
                 onClick={this.toggleVisibility}
                 name="sidebar"
               />

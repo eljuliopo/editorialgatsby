@@ -29,7 +29,7 @@ class TemplateWrapper extends Component {
     return (
       <Segment
         style={{
-          backgroundColor: "rgba(0,0,0,0)",
+          backgroundColor: "rgba(10,10,10,0.2)",
           padding: '0em',
           borderRadius: 0,
           border: 0
@@ -43,7 +43,7 @@ class TemplateWrapper extends Component {
           ]}
         />
         <CustomMenu />
-        <Segment style={{ padding: '0em', top: 42.844 }} vertical>
+        <Segment style={{ padding: '0em', top: 42.844 , height: 700}} vertical>
           { this.props.children() }
         </Segment>
         <Footer />
